@@ -61,15 +61,15 @@ background: #3074a4;
 <div id="map"></div>
 
 <script>
-mapboxgl.accessToken = 'pk.eyJ1IjoibWpkYW5pZWxzb24iLCJhIjoiY2p2bzFlbnZ5MW5pbTN5cGJ2YWp2MW9vaiJ9.kAaZq3iyJwvrMLK7XDs_qw';
+mapboxgl.accessToken = 'pk.eyJ1Ijoid2lsbGlhbWJlbGwiLCJhIjoiY2szdWQxcnBqMGFkazNrcGQ1YzJiYW1zdiJ9.FgZsKrRcCJdWZmpYUuSfpQ';
 var map = new mapboxgl.Map({
     container: 'map', // container id
-    style: 'mapbox://styles/mjdanielson/ck3s0iii80io11co4w5duvd86', // stylesheet location
+    style: 'mapbox://styles/williambell/ck3uf3k263jtn1cmnkh7kbl5n', // stylesheet location
     center: [ -85.045166015625, 12.704650508287893], // starting position [lng, lat]
     zoom: 6 // starting zoom
 });
 
-var toggleableLayerIds = [ 'Healthcare Facilities', 'Kindergarten' ];
+var toggleableLayerIds = [ 'healthcare facilities', 'kindergarden' ];
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
 var id = toggleableLayerIds[i];
